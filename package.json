@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Mayank Anand",
+  "license": "MIT",
+  "dependencies": {
+    "init": "^0.1.2",
+    "node-sass": "^4.12.0",
+    "touch": "^3.1.0"
+  }
+}
